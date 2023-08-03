@@ -23,6 +23,12 @@
     transition: 0.5s ease;
     background-color: black;
 
+    
+    &:hover {
+      opacity: 0.8;
+      cursor: pointer;
+    }
+
     .text {
       color: white;
       font-size: 20px;
@@ -46,12 +52,15 @@
     }
   }
 
-  &:hover .overlay {
-    opacity: 0.8;
-    cursor: pointer;
-  }
 
   img {
     max-width: 100%;
+  }
+}
+
+// Target devices without hover: always show opacity
+@media (hover: none) {
+  .container .overlay {
+    opacity: 0.55;
   }
 }
