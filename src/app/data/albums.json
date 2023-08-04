@@ -1,13 +1,5 @@
 [
   {
-    "artist": "Africa Hitech",
-    "title": "93 Million Miles",
-    "country": "Canada",
-    "year": "2011",
-    "genres": "UK Bass/Juke/Wonky",
-    "url": "https://rateyourmusic.com/release/album/africa-hitech/93-million-miles-1/"
-  },
-  {
     "artist": "µ-Ziq",
     "title": "Tango N'Vectif",
     "country": "UK",
@@ -16,12 +8,140 @@
     "url": "https://rateyourmusic.com/release/album/-ziq/tango-n-vectif/"
   },
   {
+    "artist": "999999999",
+    "title": "X0001000X",
+    "country": "Italy",
+    "year": "2017",
+    "genres": "Acid Techno",
+    "url": "https://rateyourmusic.com/release/ep/999999999/x0001000x/"
+  },
+  {
+    "artist": "Acid Jesus",
+    "title": "Acid Jesus",
+    "country": "Germany",
+    "year": "1993",
+    "genres": "Acid Techno",
+    "url": "https://rateyourmusic.com/release/album/acid-jesus/acid-jesus/"
+  },
+  {
+    "artist": "Æther Realm",
+    "title": "Redneck Vikings From Hell",
+    "country": "USA",
+    "year": "2020",
+    "genres": "Melodic Death Metal",
+    "url": "https://rateyourmusic.com/release/album/aether-realm/redneck-vikings-from-hell/"
+  },
+  {
+    "artist": "Africa Hitech",
+    "title": "93 Million Miles",
+    "country": "Canada",
+    "year": "2011",
+    "genres": "UK Bass/Juke/Wonky",
+    "url": "https://rateyourmusic.com/release/album/africa-hitech/93-million-miles-1/"
+  },
+  {
+    "artist": "Afro National",
+    "title": "African Experimentals (1972-1979)",
+    "country": "Sierra Leone",
+    "year": "2018",
+    "genres": "Highlife/Soukous",
+    "url": "https://rateyourmusic.com/release/comp/afro-national/african-experimentals-1972-1979/"
+  },
+  {
+    "artist": "AfroCubism",
+    "title": "AfroCubism",
+    "country": "Mali/Cuba",
+    "year": "2010",
+    "genres": "Guajira/Mande Music",
+    "url": "https://rateyourmusic.com/release/album/afrocubism/afrocubism/"
+  },
+  {
+    "artist": "Aghast",
+    "title": "Hexerei Im Zwielicht Der Finsternis",
+    "country": "Norway",
+    "year": "1995",
+    "genres": "Dark Ambient/Ritual Ambient",
+    "url": "https://rateyourmusic.com/release/album/aghast/hexerei-im-zwielicht-der-finsternis/"
+  },
+  {
+    "artist": "Akofa Akoussah",
+    "title": "Akofa Akoussah",
+    "country": "Togo",
+    "year": "1976",
+    "genres": "Ewe Music/Afro-Funk/Chanson",
+    "url": "https://rateyourmusic.com/release/album/akofa-akoussah/akofa-akoussah/"
+  },
+  {
+    "artist": "Alai K",
+    "title": "Kila Mara",
+    "country": "Kenya",
+    "year": "2021",
+    "genres": "Afro House",
+    "url": "https://rateyourmusic.com/release/album/alai-k/kila-mara/"
+  },
+  {
     "artist": "Alamaailman Vasarat",
     "title": "Käärmelautakunta",
     "country": "Finland",
     "year": "2003",
     "genres": "Avant-Prog/Klezmer",
     "url": "https://rateyourmusic.com/release/album/alamaailman-vasarat/kaarmelautakunta/"
+  },
+  {
+    "artist": "Alan Jackson",
+    "title": "Good Time",
+    "country": "USA",
+    "year": "2008",
+    "genres": "Country",
+    "url": "https://rateyourmusic.com/release/album/alan_jackson/good_time/"
+  },
+  {
+    "artist": "Alessandra Mussolini",
+    "title": "Amore",
+    "country": "Italy",
+    "year": "1982",
+    "genres": "City Pop/Italo Pop",
+    "url": "https://rateyourmusic.com/release/album/alessandra-mussolini/amore/"
+  },
+  {
+    "artist": "Alessandro Arzilli",
+    "title": "Musa",
+    "country": "San Marino",
+    "year": "2019",
+    "genres": "Progressive Metal",
+    "url": "https://rateyourmusic.com/release/album/alessandro-arzilli/musa/"
+  },
+  {
+    "artist": "Ali Farka Touré with Ry Cooder",
+    "title": "Talking Timbuktu",
+    "country": "Mali/USA",
+    "year": "1994",
+    "genres": "Songhai Music/Blues",
+    "url": "https://rateyourmusic.com/release/album/alessandro-arzilli/musa/"
+  },
+  {
+    "artist": "Alice in Chains",
+    "title": "Dirt",
+    "country": "USA",
+    "year": "1992",
+    "genres": "Grunge/Alternative Metal",
+    "url": "https://rateyourmusic.com/release/album/alice-in-chains/dirt/"
+  },
+  {
+    "artist": "Allseits",
+    "title": "Hel",
+    "country": "Germany",
+    "year": "2009",
+    "genres": "Dark Ambient/Drone",
+    "url": "https://rateyourmusic.com/release/album/allseits/hel/"
+  },
+  {
+    "artist": "Almach",
+    "title": "Battle Of Tours",
+    "country": "Afghanistan",
+    "year": "2020",
+    "genres": "Atmospheric Black Metal/Cinematic Classical",
+    "url": "https://rateyourmusic.com/release/album/almach/battle-of-tours/"
   },
   {
     "artist": "Annihilator",
@@ -36,7 +156,7 @@
     "title": "Hounds Of The Harbour",
     "country": "UK",
     "year": "2016",
-    "genres": "Industrial Techno",
+    "genres": "Industrial Techno/Power Noise",
     "url": "https://rateyourmusic.com/release/album/ansome/hounds-of-the-harbour/"
   },
   {
@@ -82,7 +202,7 @@
   {
     "artist": "Bajofondo",
     "title": "Mar Dulce",
-    "country": "Electrotango",
+    "country": "Argentina",
     "year": "2007",
     "genres": "Electrotango",
     "url": "https://rateyourmusic.com/release/album/bajofondo/mar-dulce/"
@@ -168,11 +288,19 @@
     "url": "https://rateyourmusic.com/release/album/crazy-penis/a-nice-hot-bath-with/"
   },
   {
+    "artist": "Igorrr",
+    "title": "Nostril",
+    "country": "France",
+    "year": "2010",
+    "genres": "Breakcore/Baroque Music/Cybergrind",
+    "url": "https://rateyourmusic.com/release/album/igorrr/nostril/"
+  },
+  {
     "artist": "Maldoror",
     "title": "She",
     "country": "USA/Japan",
     "year": "1999",
-    "genres": "Noise",
+    "genres": "Noise/Experimental",
     "url": "https://rateyourmusic.com/release/album/maldoror/she/"
   },
   {
