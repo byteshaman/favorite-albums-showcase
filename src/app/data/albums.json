@@ -4,7 +4,7 @@
     "title": "93 Million Miles",
     "country": "Canada",
     "year": "2011",
-    "genres": "UK Bass, Juke, Wonky",
+    "genres": "UK Bass/Juke/Wonky",
     "url": "https://rateyourmusic.com/release/album/africa-hitech/93-million-miles-1/"
   },
   {
@@ -12,16 +12,8 @@
     "title": "Käärmelautakunta",
     "country": "Finland",
     "year": "2003",
-    "genres": "Avant-Prog, Klezmer",
+    "genres": "Avant-Prog/Klezmer",
     "url": "https://rateyourmusic.com/release/album/alamaailman-vasarat/kaarmelautakunta/"
-  },
-  {
-    "artist": "Anthem",
-    "title": "No Smoke Without Fire",
-    "country": "Japan",
-    "year": "1990",
-    "genres": "Heavy Metal, Speed Metal",
-    "url": "https://rateyourmusic.com/release/album/anthem/no-smoke-without-fire/"
   },
   {
     "artist": "Ansome",
@@ -30,6 +22,54 @@
     "year": "2016",
     "genres": "Industrial Techno",
     "url": "https://rateyourmusic.com/release/album/ansome/hounds-of-the-harbour/"
+  },
+  {
+    "artist": "Anthem",
+    "title": "No Smoke Without Fire",
+    "country": "Japan",
+    "year": "1990",
+    "genres": "Heavy Metal/Speed Metal",
+    "url": "https://rateyourmusic.com/release/album/anthem/no-smoke-without-fire/"
+  },
+  {
+    "artist": "Atari Teenage Riot",
+    "title": "Delete Yourself!",
+    "country": "Germany",
+    "year": "1997",
+    "genres": "Digital Hardcore/Breakcore",
+    "url": "https://rateyourmusic.com/release/album/atari_teenage_riot/delete_yourself_/"
+  },
+  {
+    "artist": "Black Flower",
+    "title": "Magma",
+    "country": "Belgium",
+    "year": "2022",
+    "genres": "Ethio-Jazz/Jazz Fusion",
+    "url": "https://rateyourmusic.com/release/album/black-flower/magma/"
+  },
+  {
+    "artist": "Black Sabbath",
+    "title": "Paranoid",
+    "country": "UK",
+    "year": "1970",
+    "genres": "Heavy Metal/Hard Rock",
+    "url": "https://rateyourmusic.com/release/album/black-sabbath/paranoid/"
+  },
+  {
+    "artist": "Burial",
+    "title": "Burial",
+    "country": "UK",
+    "year": "2006",
+    "genres": "Dubstep/Future Garage",
+    "url": "https://rateyourmusic.com/release/album/burial/burial/"
+  },
+  {
+    "artist": "Crazy Penis",
+    "title": "A Nice Hot Bath With...",
+    "country": "UK",
+    "year": "1999",
+    "genres": "Deep House/Nu Jazz",
+    "url": "https://rateyourmusic.com/release/album/crazy-penis/a-nice-hot-bath-with/"
   },
   {
     "artist": "Maldoror",
@@ -52,15 +92,7 @@
     "title": "Nostradamus - Próféciák Könyve",
     "country": "Hungary",
     "year": "1999",
-    "genres": "Progressive Rock, Symphonic Prog",
+    "genres": "Progressive Rock/Symphonic Prog",
     "url": "https://rateyourmusic.com/release/album/solaris/nostradamus-profeciak-konyve/"
-  },
-  {
-    "artist": "Crazy Penis",
-    "title": "A Nice Hot Bath With...",
-    "country": "UK",
-    "year": "1999",
-    "genres": "Deep House, Nu Jazz",
-    "url": "https://rateyourmusic.com/release/album/crazy-penis/a-nice-hot-bath-with/"
   }
 ]
