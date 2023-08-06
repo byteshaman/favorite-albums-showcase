@@ -320,6 +320,14 @@
     "url": "https://rateyourmusic.com/release/album/asimov/todo-lo-que-buscamos-es-desaparecer/"
   },
   {
+    "artist": "Asmara All Stars",
+    "title": "Eritrea's Got Soul",
+    "country": "Eritrea",
+    "year": "2010",
+    "genres": "Afro-Jazz/Afro-Funk/Tizita",
+    "url": "https://rateyourmusic.com/release/album/asmara_allstars/eritreas_got_soul/"
+  },
+  {
     "artist": "Atari Teenage Riot",
     "title": "Delete Yourself!",
     "country": "Germany",
@@ -328,12 +336,52 @@
     "url": "https://rateyourmusic.com/release/album/atari_teenage_riot/delete_yourself_/"
   },
   {
+    "artist": "Au Pairs",
+    "title": "Playing With A Different Sex",
+    "country": "UK",
+    "year": "1981",
+    "genres": "Post-Punk",
+    "url": "https://rateyourmusic.com/release/album/au_pairs/playing_with_a_different_sex/"
+  },
+  {
+    "artist": "Aural Holograms",
+    "title": "Vol. I",
+    "country": "Finland",
+    "year": "2007",
+    "genres": "Dark Ambient/Drone",
+    "url": "https://rateyourmusic.com/release/album/aural-holograms/vol-i/"
+  },
+  {
+    "artist": "Aurora Borealis",
+    "title": "Mornings",
+    "country": "Belgium",
+    "year": "2013",
+    "genres": "Ambient/Post-Rock",
+    "url": "https://rateyourmusic.com/release/ep/aurora-borealis/mornings/"
+  },
+  {
+    "artist": "Autechre",
+    "title": "Incunabula",
+    "country": "UK",
+    "year": "1993",
+    "genres": "IDM/Ambient Techno",
+    "url": "https://rateyourmusic.com/release/album/autechre/incunabula/"
+  },
+  {
     "artist": "Bajofondo",
     "title": "Mar Dulce",
     "country": "Argentina",
     "year": "2007",
     "genres": "Electrotango",
     "url": "https://rateyourmusic.com/release/album/bajofondo/mar-dulce/"
+  },
+  {
+    "artist": "Bandits Of The Acoustic Revolution",
+    "title": "A Call To Arms",
+    "country": "USA",
+    "year": "2001",
+    "genres": "Ska Punk",
+    "url": "https://rateyourmusic.com/release/ep/bandits-of-the-acoustic-revolution/a-call-to-arms/"
   },
   {
     "artist": "Black Flower",
