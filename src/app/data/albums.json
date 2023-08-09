@@ -340,7 +340,7 @@
     "title": "Playing With A Different Sex",
     "country": "UK",
     "year": "1981",
-    "genres": "Post-Punk",
+    "genres": "Post-Punk/Dance-Punk",
     "url": "https://rateyourmusic.com/release/album/au_pairs/playing_with_a_different_sex/"
   },
   {
@@ -712,12 +712,68 @@
     "url": "https://rateyourmusic.com/release/comp/carpenter-brut/trilogy/"
   },
   {
+    "artist": "CCCP - Fedeli Alla Linea",
+    "title": "Affinità E Divergenze",
+    "country": "Italy",
+    "year": "1986",
+    "genres": "Post-Punk/Art-Punk", 
+    "url": "https://rateyourmusic.com/release/album/cccp-fedeli-alla-linea/affinita-divergenze-fra-il-compagno-togliatti-e-noi-del-conseguimento-della-maggiore-eta/"
+  },
+  {
+    "artist": "Centipede",
+    "title": "Septober Energy",
+    "country": "UK",
+    "year": "1971",
+    "genres": "Avant-garde Jazz/Experimental Big Bad", 
+    "url": "https://rateyourmusic.com/release/album/centipede/septober-energy/"
+  },
+  {
     "artist": "Chapelier Fou",
     "title": "Invisible",
     "country": "France",
     "year": "2012",
     "genres": "IDM/Folktronica",
     "url": "https://rateyourmusic.com/release/album/chapelier_fou/invisible/"
+  },
+  {
+    "artist": "Cheikh Lô",
+    "title": "Né La Thiass",
+    "country": "Burkina Faso",
+    "year": "1996",
+    "genres": "Mbalax/Soukou", 
+    "url": "https://rateyourmusic.com/release/album/cheikh-lo/ne-la-thiass-4/"
+  },
+  {
+    "artist": "Chicha Libre",
+    "title": "¡Sonido amazonico!",
+    "country": "USA",
+    "year": "2008",
+    "genres": "Cumbia Peruana", 
+    "url": "https://rateyourmusic.com/release/album/chicha-libre/_sonido-amazonico/"
+  },
+  {
+    "artist": "Chick Corea",
+    "title": "My Spanish Heart",
+    "country": "USA",
+    "year": "1976",
+    "genres": "Jazz Fusion/Latin Jazz", 
+    "url": "https://rateyourmusic.com/release/album/chick-corea/my-spanish-heart/"
+  },
+  {
+    "artist": "Chinese Man",
+    "title": "The Groove Sessions",
+    "country": "France",
+    "year": "2008",
+    "genres": "Breakbeat/Turntablism", 
+    "url": "https://rateyourmusic.com/release/album/chinese-man/the-groove-sessions/"
+  },
+  {
+    "artist": "Chris Joss",
+    "title": "Dr. Rhythm",
+    "country": "France",
+    "year": "2002",
+    "genres": "Funk/Downtempo", 
+    "url": "https://rateyourmusic.com/release/album/chris_joss/dr__rhythm/"
   },
   {
     "artist": "Chrome Hoof",
@@ -736,6 +792,22 @@
     "url": "https://rateyourmusic.com/release/album/time-machines/time-machines/"
   },
   {
+    "artist": "Confusional Quartet",
+    "title": "Confusional Quartet",
+    "country": "Italy",
+    "year": "2012",
+    "genres": "Experimental Rock/Zolo",
+    "url": "https://rateyourmusic.com/release/album/confusional-quartet/confusional-quartet-1/"
+  },
+  {
+    "artist": "Cortex",
+    "title": "Troupeau Bleu",
+    "country": "France",
+    "year": "1975",
+    "genres": "Jazz-Funk/Jazz Pop",
+    "url": "https://rateyourmusic.com/release/album/cortex/troupeau-bleu/"
+  },
+  {
     "artist": "Crazy Penis",
     "title": "A Nice Hot Bath With...",
     "country": "UK",
@@ -744,35 +816,35 @@
     "url": "https://rateyourmusic.com/release/album/crazy-penis/a-nice-hot-bath-with/"
   },
   {
-    "artist": "Igorrr",
-    "title": "Nostril",
-    "country": "France",
-    "year": "2010",
-    "genres": "Breakcore/Cybergrind",
-    "url": "https://rateyourmusic.com/release/album/igorrr/nostril/"
+    "artist": "Crimson Glory",
+    "title": "Crimson Glory",
+    "country": "USA",
+    "year": "1986",
+    "genres": "Heavy Metal",
+    "url": "https://rateyourmusic.com/release/album/crimson-glory/crimson-glory/"
   },
   {
-    "artist": "Maldoror",
-    "title": "She",
-    "country": "USA/Japan",
-    "year": "1999",
-    "genres": "Noise/Experimental",
-    "url": "https://rateyourmusic.com/release/album/maldoror/she/"
+    "artist": "Cryo Chamber Collaboration",
+    "title": "Azathoth",
+    "country": "Various",
+    "year": "2015",
+    "genres": "Dark Ambient",
+    "url": "https://rateyourmusic.com/release/album/cryo_chamber_collaboration/azathoth/"
   },
   {
-    "artist": "Shpongle",
-    "title": "Ineffable Mysteries From Shpongleland",
-    "country": "UK",
-    "year": "2009",
-    "genres": "Psybient",
-    "url": "https://rateyourmusic.com/release/album/shpongle/ineffable-mysteries-from-shpongleland/"
+    "artist": "Cujo",
+    "title": "Adventures In Foam",
+    "country": "Brazil",
+    "year": "1996",
+    "genres": "Nu Jazz/Breakbeat",
+    "url": "https://rateyourmusic.com/release/album/cujo/adventures-in-foam/"
   },
   {
-    "artist": "Solaris",
-    "title": "Nostradamus - Próféciák Könyve",
-    "country": "Hungary",
-    "year": "1999",
-    "genres": "Progressive Rock/Symphonic Prog",
-    "url": "https://rateyourmusic.com/release/album/solaris/nostradamus-profeciak-konyve/"
+    "artist": "Cymande",
+    "title": "Cymande",
+    "country": "USA",
+    "year": "1972",
+    "genres": "Funk/Psychedelic Soul",
+    "url": "https://rateyourmusic.com/release/album/cymande/cymande/"
   }
 ]
