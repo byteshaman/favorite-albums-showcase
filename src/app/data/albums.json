@@ -488,7 +488,7 @@
     "url": "https://rateyourmusic.com/release/album/black-flower/magma/"
   },
   {
-    "artist": "Black Mountain Transmitter Woods",
+    "artist": "Black Mountain Transmitter",
     "title": "Black Goat Of The Woods",
     "country": "UK",
     "year": "2009",
@@ -846,5 +846,45 @@
     "year": "1972",
     "genres": "Funk/Psychedelic Soul",
     "url": "https://rateyourmusic.com/release/album/cymande/cymande/"
+  },
+  {
+    "artist": "Daft Punk",
+    "title": "Random Access Memories",
+    "country": "France",
+    "year": "2015",
+    "genres": "Disco/Synth Funk",
+    "url": "https://rateyourmusic.com/release/album/daft-punk/random-access-memories/"
+  },
+  {
+    "artist": "DakhaBrakha",
+    "title": "Alambari",
+    "country": "Ukraine",
+    "year": "2020",
+    "genres": "Folk Pop/Ukrainian Folk Music/Cabaret",
+    "url": "https://rateyourmusic.com/release/album/%D0%B4%D0%B0%D1%85%D0%B0%D0%B1%D1%80%D0%B0%D1%85%D0%B0/alambari/"
+  },
+  {
+    "artist": "Daridel",
+    "title": "Paganroots",
+    "country": "Italy",
+    "year": "2019",
+    "genres": "Neo-Pagan Folk",
+    "url": "https://rateyourmusic.com/release/album/daridel/paganroots/"
+  },
+  {
+    "artist": "Dark Lunacy",
+    "title": "Devoid",
+    "country": "Italy",
+    "year": "2000",
+    "genres": "Melodic Death Metal/Symphonic Metal",
+    "url": "https://rateyourmusic.com/release/album/dark-lunacy/devoid/"
+  },
+  {
+    "artist": "Dark Moor",
+    "title": "Tarot",
+    "country": "Spain",
+    "year": "2007",
+    "genres": "Power Metal/Neoclassical Metal",
+    "url": "https://rateyourmusic.com/release/album/dark-moor/tarot/"
   }
 ]
