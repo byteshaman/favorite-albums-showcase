@@ -6,7 +6,7 @@
         <div class="text">
           <ul>
             <li>{{ album.artist }}</li>
-            <li>{{ album.title }}</li>
+            <li>{{ album.displaytitle ? album.displaytitle : album.title }}</li>
             <li>{{ album.genres }}</li>
             <li>{{ album.country + ' - ' + album.year }}</li>
           </ul>
