@@ -1,5 +1,11 @@
+<div class="header">
+  <h1>ALBUMS: {{ filteredArray.length }}</h1>
+
+  <input type="text" (input)="filterAlbums()" [formControl]="searchTerm">
+</div>
+
 <div class="grid-container">
-  <ng-container *ngFor="let album of albumArray">
+  <ng-container *ngFor="let album of filteredArray">
     <div class="container" (click)="goToLink(album.url)">
       <img src="{{'assets/album-covers/' + album.artist + ' - ' + album.title + '.webp'}}">
       <div class="overlay">

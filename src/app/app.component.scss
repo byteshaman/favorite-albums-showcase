@@ -58,6 +58,36 @@
   }
 }
 
+.header {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 10px;
+
+  h1 {
+    color: #8ba8ff;
+    font-size: clamp(48px, 5vw, 150px);
+    margin: 0;
+  }
+
+  input, input:focus {
+    min-width: 300px;
+    width: 50vw;
+    height: 40px;
+
+    background-color: #161a25;
+    font-size: 36px;
+    color: #8ba8ff;
+
+    border: 1px solid #8ba8ff;
+    border-radius: 5px;
+
+    text-transform: uppercase;
+  }
+  
+}
+
+
 // Target devices without hover: always show opacity
 @media (hover: none) {
   .container .overlay {
