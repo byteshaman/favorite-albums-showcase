@@ -6,6 +6,7 @@ export interface Album {
   artist: string
   title: string
   displaytitle?: string
+  displayartist?: string
   country: string
   year: string
   genres: string
@@ -24,7 +25,7 @@ export class AppComponent {
 
   filterAlbums(): void {
     const st: string = this.searchTerm.value!;
-    this.filteredArray = this.albumArray.filter(album => album.artist.toLowerCase().includes(st) || album.title.toLowerCase().includes(st) || album.displaytitle?.toLowerCase().includes(st) || album.country.toLowerCase().includes(st) || album.genres.toLowerCase().includes(st) || album.year.includes(st));
+    this.filteredArray = this.albumArray.filter(album => album.artist.toLowerCase().includes(st) || album.displayartist?.toLowerCase().includes(st) || album.title.toLowerCase().includes(st) || album.displaytitle?.toLowerCase().includes(st) || album.country.toLowerCase().includes(st) || album.genres.toLowerCase().includes(st) || album.year.includes(st));
     console.log(this.filteredArray);
   }
 

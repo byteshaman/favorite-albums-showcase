@@ -11,7 +11,7 @@
       <div class="overlay">
         <div class="text">
           <ul>
-            <li>{{ album.artist }}</li>
+            <li>{{ album.displayartist ? album.displayartist : album.artist }}</li>
             <li>{{ album.displaytitle ? album.displaytitle : album.title }}</li>
             <li>{{ album.genres }}</li>
             <li>{{ album.country + ' - ' + album.year }}</li>

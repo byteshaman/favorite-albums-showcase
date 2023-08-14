@@ -428,7 +428,7 @@
     "title": "De Natura Sonorum",
     "country": "France",
     "year": "1978",
-    "genres": "Musique Concrète",
+    "genres": "Musique Concrète/Acousmatic Music",
     "url": "https://rateyourmusic.com/release/album/bernard-parmegiani/de-natura-sonorum/"
   },
   {
@@ -585,7 +585,9 @@
   },
   {
     "artist": "Boris Godjunov",
+    "displayartist": "Борис Гуджунов",
     "title": "Boris Godjunov",
+    "displaytitle": "Борис Гуджунов",
     "country": "Bulgaria",
     "year": "1978",
     "genres": "Soviet Estrada/Rock & Roll",
@@ -641,7 +643,9 @@
   },
   {
     "artist": "Cairokee",
+    "displayartist": "كايروكي",
     "title": "The Ugly Ducklings",
+    "displaytitle": "أبناء البطة السوداء",
     "country": "Egypt",
     "year": "2019",
     "genres": "Alternative Rock/Shaabi",
@@ -1128,5 +1132,211 @@
     "year": "2011",
     "genres": "Electropop/Chillwave",
     "url": "https://rateyourmusic.com/release/album/dye/taki-183/"
+  },
+  {
+    "artist": "Ebo Taylor",
+    "title": "Love & Death",
+    "country": "Ghana",
+    "year": "2010",
+    "genres": "Afrobeat/Highlife",
+    "url": "https://rateyourmusic.com/release/album/ebo-taylor/love-and-death/"
+  },
+  {
+    "artist": "Ecko Bazz",
+    "title": "Mmaso",
+    "country": "Uganda",
+    "year": "2022",
+    "genres": "Grime/Industrial Hip-Hop",
+    "url": "https://rateyourmusic.com/release/album/ecko-bazz/mmaso/"
+  },
+  {
+    "artist": "Edguy",
+    "title": "Vain Glory Opera",
+    "country": "Germany",
+    "year": "1998",
+    "genres": "Power Metal/Symphonic Metal",
+    "url": "https://rateyourmusic.com/release/album/edguy/vain_glory_opera/"
+  },
+  {
+    "artist": "Eeeks",
+    "title": "Pet City",
+    "country": "Paraguay",
+    "year": "2017",
+    "genres": "Neo-Psychedelia/Indie Pop",
+    "url": "https://rateyourmusic.com/release/album/eeeks/pet-city/"
+  },
+  {
+    "artist": "Einmusik",
+    "title": "I.D.C.",
+    "displaytitle": "I/D/C",
+    "country": "Germany",
+    "year": "2015",
+    "genres": "Tech House",
+    "url": "https://rateyourmusic.com/release/album/einmusik/i_d_c/"
+  },
+  {
+    "artist": "Electric Wizard",
+    "title": "Dopethrone",
+    "country": "UK",
+    "year": "2000",
+    "genres": "Doom Metal//Stoner Metal",
+    "url": "https://rateyourmusic.com/release/album/electric-wizard/dopethrone/"
+  },
+  {
+    "artist": "Elephant Gym",
+    "title": "Angle",
+    "displaytitle": "角度",
+    "country": "Taiwan",
+    "year": "2014",
+    "genres": "Math Rock/Math Pop",
+    "url": "https://rateyourmusic.com/release/album/%E5%A4%A7%E8%B1%A1%E9%AB%94%E6%93%8D/%E8%A7%92%E5%BA%A6-angle.p/"
+  },
+  {
+    "artist": "Éliane Radigue",
+    "title": "Trilogie De La Mort",
+    "country": "France",
+    "year": "1998",
+    "genres": "Drone/Acousmatic Music",
+    "url": "https://rateyourmusic.com/release/album/eliane-radigue/trilogie-de-la-mort/"
+  },
+  {
+    "artist": "Eloy",
+    "title": "Floating",
+    "country": "Germany",
+    "year": "1974",
+    "genres": "Progressive Rock/Space Rock",
+    "url": "https://rateyourmusic.com/release/album/eloy/floating/"
+  },
+  {
+    "artist": "Eluveitie",
+    "title": "Evocation I - The Arcane Dominion",
+    "country": "Switzerland",
+    "year": "2009",
+    "genres": "Celtic Folk Music/Neo-Pagan Folk ",
+    "url": "https://rateyourmusic.com/release/album/eluveitie/evocation-i-the-arcane-dominion/"
+  },
+  {
+    "artist": "Elvis Presley",
+    "displaytitle": "ELV1S: 30 #1 Hits",
+    "title": "ELV1S 30",
+    "country": "USA",
+    "year": "2002",
+    "genres": "Rockabilly/Rock & Roll",
+    "url": "https://rateyourmusic.com/release/comp/elvis-presley/elv1s-30-1-hits/"
+  },
+  {
+    "artist": "Emerson, Lake & Palmer",
+    "title": "Trilogy",
+    "country": "UK",
+    "year": "1972",
+    "genres": "Progressive Rock/Symphonic Prog",
+    "url": "https://rateyourmusic.com/release/album/emerson-lake-and-palmer/trilogy-15/"
+  },
+  {
+    "artist": "Enemite",
+    "displayartist": "怨",
+    "title": "Wuyuan",
+    "displaytitle": "巫怨",
+    "country": "China",
+    "year": "2005",
+    "genres": "Ritual Ambient/Chinese Folk Music",
+    "url": "https://rateyourmusic.com/release/album/%E6%80%A8/%E5%B7%AB%E6%80%A8-wuyuan/"
+  },
+  {
+    "artist": "Ensiferum",
+    "title": "Thalassic",
+    "country": "Sweden",
+    "year": "2020",
+    "genres": "Folk Metal/Power Metal",
+    "url": "https://rateyourmusic.com/release/album/ensiferum/thalassic/"
+  },
+  {
+    "artist": "Epica",
+    "title": "The Phantom Agony",
+    "country": "Netherlands",
+    "year": "2003",
+    "genres": "Symphonic Metal",
+    "url": "https://rateyourmusic.com/release/album/epica/the-phantom-agony/"
+  },
+  {
+    "artist": "EPROM",
+    "title": "Metahuman",
+    "country": "USA",
+    "year": "2012",
+    "genres": "Wonky/Glitch Hop",
+    "url": "https://rateyourmusic.com/release/album/eprom/metahuman/"
+  },
+  {
+    "artist": "Equilibrium",
+    "title": "Sagas",
+    "country": "Germany",
+    "year": "2008",
+    "genres": "Folk Metal/Viking Metal",
+    "url": "https://rateyourmusic.com/release/album/equilibrium/sagas/"
+  },
+  {
+    "artist": "eRa",
+    "title": "Classics II",
+    "country": "France",
+    "year": "2010",
+    "genres": "Neoclassical New Age",
+    "url": "https://rateyourmusic.com/release/album/era/classics-ii/"
+  },
+  {
+    "artist": "Ergyron",
+    "displayartist": "Эргырон",
+    "title": "Чукотские и эскимосские песни",
+    "country": "Russia",
+    "year": "2008",
+    "genres": "Chukchi Folk Music",
+    "url": "https://rateyourmusic.com/release/album/%D1%8D%D1%80%D0%B3%D1%8B%D1%80%D0%BE%D0%BD/%D1%87%D1%83%D0%BA%D0%BE%D1%82%D1%81%D0%BA%D0%B8%D0%B5-%D0%B8-%D1%8D%D1%81%D0%BA%D0%B8%D0%BC%D0%BE%D1%81%D1%81%D0%BA%D0%B8%D0%B5-%D0%BF%D0%B5%D1%81%D0%BD%D0%B8/"
+  },
+  {
+    "artist": "Erkin Koray",
+    "title": "Elektronik Türküler",
+    "country": "Turkey",
+    "year": "1974",
+    "genres": "Anatolian Rock/Psychedelick Rock",
+    "url": "https://rateyourmusic.com/release/album/erkin-koray/elektronik-turkuler.p/"
+  },
+  {
+    "artist": "Estradasphere",
+    "title": "Buck Fever",
+    "country": "USA",
+    "year": "2001",
+    "genres": "Experimental Rock/Avant-garde Metal",
+    "url": "https://rateyourmusic.com/release/album/estradasphere/buck-fever/"
+  },
+  {
+    "artist": "Eterea Post Bong Band",
+    "title": "Epyks 1.0",
+    "country": "Italy",
+    "year": "2009",
+    "genres": "Experimental Rock",
+    "url": "https://rateyourmusic.com/release/album/eterea-post-bong-band/epyks-1_0/"
+  },
+  {
+    "artist": "Eumir Deodato",
+    "title": "Prelude",
+    "country": "Brazil",
+    "year": "1973",
+    "genres": "Jazz Fusion/Jazz-Funk",
+    "url": "https://rateyourmusic.com/release/album/deodato/prelude/"
+  },
+  {
+    "artist": "Extra Golden",
+    "title": "Hera Ma Nono",
+    "country": "Kenya/USA",
+    "year": "2007",
+    "genres": "Benga/Boogie Rock",
+    "url": "https://rateyourmusic.com/release/album/extra_golden/hera_ma_nono/"
+  },
+  {
+    "artist": "Exuma",
+    "title": "Exuma, The Obeah Man",
+    "country": "Bahamas",
+    "year": "1970",
+    "genres": "Caribbean Folk Music/Junkanoo",
+    "url": "https://rateyourmusic.com/release/album/exuma/exuma-4/"
   }
 ]
