@@ -2,9 +2,9 @@
   margin: 0 auto;
 
   display: grid;
-  grid-template-columns: repeat(auto-fit, 400px);
+  grid-template-columns: repeat(auto-fit, 250px);
   justify-content: center;
-  grid-gap: 3px; /* Aggiungi un margine tra gli elementi, se lo desideri */
+  grid-gap: 3px;
 }
 
 .container {
@@ -31,7 +31,7 @@
 
     .text {
       color: white;
-      font-size: 20px;
+      font-size: 14px;
       position: absolute;
       top: 50%;
       left: 50%;

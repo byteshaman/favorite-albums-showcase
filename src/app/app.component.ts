@@ -7,6 +7,7 @@ export interface Album {
   title: string
   displaytitle?: string
   displayartist?: string
+  extra?: string
   country: string
   year: string
   genres: string

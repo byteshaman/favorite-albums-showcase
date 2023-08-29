@@ -24,6 +24,14 @@
     "url": "https://rateyourmusic.com/release/album/acid-jesus/acid-jesus/"
   },
   {
+    "artist": "Acoustic Ladyland",
+    "title": "Skinny Grin",
+    "country": "UK",
+    "year": "2006",
+    "genres": "Jazz-Rock/Art Punk",
+    "url": "https://rateyourmusic.com/release/album/acoustic-ladyland/skinny-grin/"
+  },
+  {
     "artist": "Æther Realm",
     "title": "Redneck Vikings From Hell",
     "country": "USA",
@@ -101,7 +109,8 @@
     "country": "Italy",
     "year": "1982",
     "genres": "City Pop/Italo Pop",
-    "url": "https://rateyourmusic.com/release/album/alessandra-mussolini/amore/"
+    "url": "https://rateyourmusic.com/release/album/alessandra-mussolini/amore/",
+    "extra": "(I'm not a fascist)"
   },
   {
     "artist": "Alessandro Arzilli",
@@ -182,6 +191,14 @@
     "year": "2007",
     "genres": "IDM/Experimental",
     "url": "https://rateyourmusic.com/release/album/amon-tobin/foley-room/"
+  },
+  {
+    "artist": "Amor Electro",
+    "title": "Cai O Carmo E A Trindade",
+    "country": "Portugal",
+    "year": "2011",
+    "genres": "Pop Rock",
+    "url": "https://rateyourmusic.com/release/album/amor_electro/cai_o_carmo_e_a_trindade/"
   },
   {
     "artist": "Amphibian Man",
@@ -636,7 +653,7 @@
   {
     "artist": "Cage",
     "title": "Movies For The Blind",
-    "country": "USA",
+    "country": "Germany",
     "year": "2002",
     "genres": "East Coast Hip-Hop/Horrorcore",
     "url": "https://rateyourmusic.com/release/album/cage/movies-for-the-blind/"
@@ -2204,8 +2221,7 @@
   {
     "artist": "Kokumaromilk",
     "displayartist": "こくまろみるく",
-    "title": "Girl Whore",
-    "displaytitle": "少女娼婦",
+    "title": "少女娼婦",
     "country": "Japan",
     "year": "2008",
     "genres": "Avant-garde Metal/J-Pop",
@@ -2414,5 +2430,216 @@
     "year": "1984",
     "genres": "New Wave",
     "url": "https://rateyourmusic.com/search?searchterm=Maanam%20Nocny%20Patrol&searchtype="
+  },
+  {
+    "artist": "Macroblank",
+    "title": "行方不明",
+    "country": "USA",
+    "year": "1984",
+    "genres": "Nu Jazz/Downtempo",
+    "url": "https://rateyourmusic.com/release/album/macroblank/%E8%A1%8C%E6%96%B9%E4%B8%8D%E6%98%8E/"
+  },
+  {
+    "artist": "Magic System",
+    "title": "1er Gaou",
+    "country": "Ivory Coast",
+    "year": "2003",
+    "genres": "Zouglou",
+    "url": "https://rateyourmusic.com/release/album/magic-system/1er-gaou/"
+  },
+  {
+    "artist": "Maitre Gazonga",
+    "title": "Les Jaloux Saboteurs",
+    "country": "Chad",
+    "year": "1983",
+    "genres": "Highlife/Soukous",
+    "url": "https://rateyourmusic.com/release/album/maitre-gazonga/les-jaloux-saboteurs/"
+  },
+  {
+    "artist": "Maldoror",
+    "title": "She",
+    "country": "USA/Japan",
+    "year": "1999",
+    "genres": "Noise/Experimental",
+    "url": "https://rateyourmusic.com/release/album/maldoror/she/"
+  },
+  {
+    "artist": "Malfeitor",
+    "title": "Unio Mystica Maxima",
+    "country": "Italy",
+    "year": "2007",
+    "genres": "Black Metal",
+    "url": "https://rateyourmusic.com/release/album/malfeitor/unio-mystica-maxima/"
+  },
+  {
+    "artist": "Mantis",
+    "title": "Turn Onto Music",
+    "country": "Fiji",
+    "year": "1973",
+    "genres": "Psychedelic Rock/Funk Rock",
+    "url": "https://rateyourmusic.com/release/album/mantis/turn-onto-music/"
+  },
+  {
+    "artist": "Manu Chao",
+    "title": "Clandestino",
+    "country": "France",
+    "year": "1998",
+    "genres": "Latin Alternative/Nueva Canción",
+    "url": "https://rateyourmusic.com/release/album/manu-chao/clandestino/"
+  },
+  {
+    "artist": "Masonna",
+    "title": "Spectrum Ripper",
+    "country": "Japan",
+    "year": "1997",
+    "genres": "Harsh Noise/Power Electronics",
+    "url": "https://rateyourmusic.com/release/album/masonna/spectrum-ripper/"
+  },
+  {
+    "artist": "Matmos",
+    "title": "A Chance To Cut Is A Chance To Cure",
+    "country": "USA",
+    "year": "2001",
+    "genres": "Glitch/IDM",
+    "url": "https://rateyourmusic.com/release/album/matmos/a-chance-to-cut-is-a-chance-to-cure/"
+  },
+  {
+    "artist": "Matt Elliott",
+    "title": "Drinking Songs",
+    "country": "UK",
+    "year": "2005",
+    "genres": "Contemporary Folk/Slowcore",
+    "url": "https://rateyourmusic.com/release/album/matt-elliott/drinking-songs.p/"
+  },
+  {
+    "artist": "Mbaraka Mwinshehe & Morogoro Jazz Band",
+    "title": "Hallo Betty",
+    "country": "Tanzania",
+    "year": "1969",
+    "genres": "Muziki Wa Dansi",
+    "url": "https://rateyourmusic.com/release/comp/mbaraka-mwinshehe-morogoro-jazz-band/hallo-betty/"
+  },
+  {
+    "artist": "Mdou Moctar",
+    "title": "Afrique Victime",
+    "country": "Niger",
+    "year": "2021",
+    "genres": "Psychedelic Rock/Tishoumaren",
+    "url": "https://rateyourmusic.com/release/album/mdou-moctar/afrique-victime/"
+  },
+  {
+    "artist": "Megadeth",
+    "title": "Rust In Peace",
+    "country": "USA",
+    "year": "1990",
+    "genres": "Thrash Metal",
+    "url": "https://rateyourmusic.com/release/album/megadeth/rust-in-peace/"
+  },
+  {
+    "artist": "Meiko Nakahara",
+    "displayartist": "中原めいこ",
+    "title": "Friday Magic",
+    "displaytitle": "2時までのシンデレラ~Friday Magic~",
+    "country": "Japan",
+    "year": "1982",
+    "genres": "City Pop",
+    "url": "https://rateyourmusic.com/release/album/%E4%B8%AD%E5%8E%9F%E3%82%81%E3%81%84%E3%81%93/2%E6%99%82%E3%81%BE%E3%81%A7%E3%81%AE%E3%82%B7%E3%83%B3%E3%83%87%E3%83%AC%E3%83%A9-friday-magic/"
+  },
+  {
+    "artist": "Merzbow",
+    "title": "Pulse Demon",
+    "country": "Japan",
+    "year": "1996",
+    "genres": "Harsh Noise",
+    "url": "https://rateyourmusic.com/release/album/merzbow/pulse-demon/"
+  },
+  {
+    "artist": "Merzbow, Keiji Haino, Balázs Pándi",
+    "displayartist": "Merzbow / Keiji Haino / Balázs Pándi",
+    "title": "An Untroublesome Defencelessness",
+    "country": "Japan/Hungary",
+    "year": "2016",
+    "genres": "Noise Rock",
+    "url": "https://rateyourmusic.com/release/album/merzbow-keiji-haino-balazs-pandi/%E8%BF%B7%E6%83%91%E3%82%92%E3%81%8B%E3%81%91%E3%81%AA%E3%81%84%E7%84%A1%E9%98%B2%E5%82%99-an-untroublesome-defencelessness/"
+  },
+  {
+    "artist": "Metallica",
+    "title": "Kill 'Em All",
+    "country": "USA",
+    "year": "1983",
+    "genres": "Thrash Metal/Speed Metal",
+    "url": "https://rateyourmusic.com/release/album/metallica/kill-em-all/"
+  },
+  {
+    "artist": "Metamorfosi",
+    "title": "Inferno",
+    "country": "Italy",
+    "year": "1973",
+    "genres": "Progressive Rock/Symphonic Prog",
+    "url": "https://rateyourmusic.com/release/album/metamorfosi/inferno/"
+  },
+  {
+    "artist": "Metronomy",
+    "title": "The English Riviera",
+    "country": "UK",
+    "year": "2011",
+    "genres": "Synthpop/Indietronica",
+    "url": "https://rateyourmusic.com/release/album/metronomy/the-english-riviera/"
+  },
+  {
+    "artist": "Michael Stearns",
+    "title": "Encounter (A Journey In The Key Of Space)",
+    "country": "USA",
+    "year": "1988",
+    "genres": "Space Ambient",
+    "url": "https://rateyourmusic.com/release/album/michael-stearns/encounter-a-journey-in-the-key-of-space/"
+  },
+  {
+    "artist": "Mighty Sparrow",
+    "title": "Hot And Sweet",
+    "country": "Grenada",
+    "year": "1974",
+    "genres": "Calypso",
+    "url": "https://rateyourmusic.com/release/album/mighty-sparrow/hot-and-sweet/"
+  },
+  {
+    "artist": "Miike Takeshi",
+    "title": "Geremiadi",
+    "country": "Italy",
+    "year": "2013",
+    "genres": "Experimental Hip-Hop/Abstract Hip-Hop",
+    "url": "https://rateyourmusic.com/release/album/miike-takeshi/geremiadi/"
+  },
+  {
+    "artist": "Mike Patton",
+    "title": "Pranzo Oltranzista",
+    "country": "USA",
+    "year": "1997",
+    "genres": "Experimental/Musique Concrète",
+    "url": "https://rateyourmusic.com/release/album/mike-patton/pranzo-oltranzista/"
+  },
+  {
+    "artist": "Mike Patton & Jean-Claude Vannier",
+    "title": "Corpse Flower",
+    "country": "USA/France",
+    "year": "2019",
+    "genres": "Chamber Pop/Dark Cabaret",
+    "url": "https://rateyourmusic.com/release/album/mike-patton-jean-claude-vannier/corpse-flower-1/"
+  },
+  {
+    "artist": "Miles Davis",
+    "title": "Bitches Brew",
+    "country": "USA",
+    "year": "1970",
+    "genres": "Jazz Fusion/Avant-garde Jazz",
+    "url": "https://rateyourmusic.com/release/album/miles-davis/bitches-brew/"
+  },
+  {
+    "artist": "Mimi Mercedez",
+    "title": "Našminkam Se I Pravim Haos",
+    "country": "Serbia",
+    "year": "2016",
+    "genres": "Trap",
+    "url": "https://rateyourmusic.com/release/album/mimi-mercedez/nasminkam-se-i-pravim-haos/"
   }
 ]
