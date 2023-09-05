@@ -1,3 +1,9 @@
+// Variables
+$h1-font-size: clamp(42px, 5vw, 50px);
+$input-font-size: clamp(1rem, -0.875rem + 8.333vw, 36px);
+$input-size: clamp(250px, 60vw, 650px);
+$overlay-font-size: clamp(0.5rem, 2vw, .8rem);
+
 .grid-container {
   margin: 0 auto;
 
@@ -31,7 +37,7 @@
 
     .text {
       color: white;
-      font-size: 14px;
+      font-size: $overlay-font-size;
       position: absolute;
       top: 50%;
       left: 50%;
@@ -66,17 +72,16 @@
 
   h1 {
     color: #8ba8ff;
-    font-size: clamp(48px, 5vw, 150px);
+    font-size: $h1-font-size;
     margin: 0;
   }
 
   input, input:focus {
-    min-width: 300px;
-    width: 50vw;
+    width: $input-size;
     height: 40px;
 
     background-color: #161a25;
-    font-size: 36px;
+    font-size: $input-font-size;
     color: #8ba8ff;
 
     border: 1px solid #8ba8ff;
@@ -92,5 +97,20 @@
 @media (hover: none) {
   .container .overlay {
     opacity: 0.55;
+  }
+}
+
+// Tablet and mobile
+@media (max-width: 785px) {
+  .grid-container {
+    grid-template-columns: repeat(auto-fit, 30vw);
+
+    li {
+      margin-bottom: 7px !important; 
+    }
+
+    .hidden {
+      display: none;
+    }
   }
 }

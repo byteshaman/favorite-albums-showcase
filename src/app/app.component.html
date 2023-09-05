@@ -14,7 +14,7 @@
             <li>{{ album.displayartist ? album.displayartist : album.artist }}</li>
             <li>{{ album.displaytitle ? album.displaytitle : album.title }}</li>
             <li>{{ album.genres }}</li>
-            <li>{{ album.country + ' - ' + album.year }}</li>
+            <li class="hidden">{{ album.country + ' - ' + album.year }}</li>
             <li *ngIf="album.extra">{{ album.extra }}</li>
           </ul>
         </div>
