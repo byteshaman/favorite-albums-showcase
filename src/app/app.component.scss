@@ -3,6 +3,12 @@ $h1-font-size: clamp(42px, 5vw, 50px);
 $input-font-size: clamp(1rem, -0.875rem + 8.333vw, 36px);
 $input-size: clamp(250px, 60vw, 650px);
 $overlay-font-size: clamp(0.5rem, 2vw, .8rem);
+$font-color: #8ba8ff;
+
+::placeholder {
+  color: $font-color;
+  opacity: .7; 
+}
 
 .grid-container {
   margin: 0 auto;
@@ -71,7 +77,7 @@ $overlay-font-size: clamp(0.5rem, 2vw, .8rem);
   margin-bottom: 10px;
 
   h1 {
-    color: #8ba8ff;
+    color: $font-color;
     font-size: $h1-font-size;
     margin: 0;
   }
@@ -82,9 +88,9 @@ $overlay-font-size: clamp(0.5rem, 2vw, .8rem);
 
     background-color: #161a25;
     font-size: $input-font-size;
-    color: #8ba8ff;
+    color: $font-color;
 
-    border: 1px solid #8ba8ff;
+    border: 1px solid $font-color;
     border-radius: 5px;
 
     text-transform: uppercase;

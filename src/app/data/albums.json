@@ -1,5 +1,15 @@
 [
   {
+    "artist": "DOTDOTDOT",
+    "displayartist": "...?",
+    "title": "DOTDOTDOT",
+    "displaytitle": "...!",
+    "country": "USA",
+    "year": "2012",
+    "genres": "Avant-garde Metal",
+    "url": "https://rateyourmusic.com/release/album/_/_-14/"
+  },
+  {
     "artist": "µ-Ziq",
     "title": "Tango N'Vectif",
     "country": "UK",
@@ -669,6 +679,14 @@
     "url": "https://rateyourmusic.com/release/album/%D9%83%D8%A7%D9%8A%D8%B1%D9%88%D9%83%D9%8A/%D8%A3%D8%A8%D9%86%D8%A7%D8%A1-%D8%A7%D9%84%D8%A8%D8%B7%D8%A9-%D8%A7%D9%84%D8%B3%D9%88%D8%AF%D8%A7%D8%A1-the-ugly-ducklings/"
   },
   {
+    "artist": "Caldon Glover",
+    "title": "Ùir",
+    "country": "USA",
+    "year": "2023",
+    "genres": "Dark Ambient",
+    "url": "https://rateyourmusic.com/release/album/caldon-glover/uir/"
+  },
+  {
     "artist": "Camel",
     "title": "Mirage",
     "country": "UK",
@@ -677,12 +695,28 @@
     "url": "https://rateyourmusic.com/release/album/camel/mirage/"
   },
   {
+    "artist": "Cameron",
+    "title": "Cameron",
+    "country": "Guyana",
+    "year": "1980",
+    "genres": "Disco/Boogie",
+    "url": "https://rateyourmusic.com/release/album/cameron/cameron/"
+  },
+  {
     "artist": "CapaRezza",
     "title": "Habemus Capa",
     "country": "Italy",
     "year": "2006",
     "genres": "Political Hip-Hop/Conscious Hip-Hop",
     "url": "https://rateyourmusic.com/release/album/caparezza/habemus-capa-1/"
+  },
+  {
+    "artist": "Carbon Based Lifeforms",
+    "title": "World Of Sleepers",
+    "country": "Sweden",
+    "year": "2006",
+    "genres": "Psybient",
+    "url": "https://rateyourmusic.com/release/album/carbon-based-lifeforms/world-of-sleepers/"
   },
   {
     "artist": "Captain Beefheart & His Magic Band",
@@ -1825,6 +1859,15 @@
     "year": "2018",
     "genres": "Synthwave/Darksynth",
     "url": "https://rateyourmusic.com/release/album/hollywood-burns/invaders/"
+  },
+  {
+    "artist": "Home",
+    "displayartist": "HOME",
+    "title": "Before The Night",
+    "country": "USA",
+    "year": "2014",
+    "genres": "Synthwave",
+    "url": "https://rateyourmusic.com/release/album/home/before-the-night/"
   },
   {
     "artist": "Hurd",
@@ -3032,7 +3075,7 @@
     "url": "https://rateyourmusic.com/release/album/pavlovs-dog/pampered-menial/"
   },
   {
-    "artist": "Paysage d'Hiver",
+    "artist": "Paysage D'Hiver",
     "title": "Im Wald",
     "country": "Switzerland",
     "year": "2020",
@@ -3177,5 +3220,103 @@
     "year": "2014",
     "genres": "Space Ambient",
     "url": "https://rateyourmusic.com/release/ep/progenie-terrestre-pura/asteroidi/"
+  },
+  {
+    "artist": "Qntal",
+    "displayartist": "QNTAL",
+    "title": "Qntal VII",
+    "country": "Germany",
+    "year": "2014",
+    "genres": "Darkwave",
+    "url": "https://rateyourmusic.com/release/album/qntal/qntal-vii/"
+  },
+  {
+    "artist": "Quantic & His Combo Bárbaro",
+    "title": "Tradition In Transition",
+    "country": "UK/Peru/Colombia",
+    "year": "2009",
+    "genres": "Latin Jazz/Latin Funk",
+    "url": "https://rateyourmusic.com/release/album/quantic-and-his-combo-barbaro/tradition-in-transition/"
+  },
+  {
+    "artist": "Radiohead",
+    "title": "OK Computer",
+    "country": "UK",
+    "year": "1997",
+    "genres": "Alternative Rock/Art Rock",
+    "url": "https://rateyourmusic.com/release/album/radiohead/ok-computer/"
+  },
+  {
+    "artist": "Rage Against The Machine",
+    "title": "Rage Against The Machine",
+    "country": "USA",
+    "year": "1992",
+    "genres": "Rap Metal",
+    "url": "https://rateyourmusic.com/release/album/rage-against-the-machine/rage-against-the-machine/"
+  },
+  {
+    "artist": "Redshirt Theory",
+    "title": "I Think It's Gonna Rain",
+    "country": "USA",
+    "year": "2010",
+    "genres": "EDM",
+    "url": "https://redshirttheory.bandcamp.com/album/i-think-its-gonna-rain="
+  },
+  {
+    "artist": "Rhapsody",
+    "title": "Symphony Of Enchanted Lands",
+    "country": "Italy",
+    "year": "1998",
+    "genres": "Power Metal/Symphonic Metal",
+    "url": "https://rateyourmusic.com/release/album/rhapsody/symphony-of-enchanted-lands-11/"
+  },
+  {
+    "artist": "Rino Gaetano",
+    "title": "Sotto I Cieli Di Rino",
+    "country": "Italy",
+    "year": "2003",
+    "genres": "Singer-Songwriter",
+    "url": "https://rateyourmusic.com/release/comp/rino-gaetano/sotto-i-cieli-di-rino/"
+  },
+  {
+    "artist": "Robert Rich",
+    "title": "Somnium",
+    "country": "",
+    "year": "2001",
+    "genres": "Ambient/Drone",
+    "url": "https://rateyourmusic.com/release/album/robert-rich/somnium/"
+  },
+  {
+    "artist": "Rovo",
+    "title": "Tonic 2001",
+    "country": "Japan",
+    "year": "2002",
+    "genres": "Space Rock/Psychedelic Rock",
+    "url": "https://rateyourmusic.com/release/album/rovo/tonic-2001/"
+  },
+  {
+    "artist": "Ruby My Dear",
+    "title": "Ginkgo",
+    "country": "France",
+    "year": "2011",
+    "genres": "Breakcore",
+    "url": "https://rateyourmusic.com/release/ep/ruby-my-dear/ginkgo/"
+  },
+  {
+    "artist": "Ruina",
+    "title": "Aepok",
+    "country": "Italy",
+    "year": "2015",
+    "genres": "Drone/Spoken Word",
+    "url": "https://rrruina.bandcamp.com/album/aepok"
+  },
+  {
+    "artist": "Ryo Fukui",
+    "displayartist": "福居良",
+    "title": "Scenery",
+    "country": "Japan",
+    "year": "1976",
+    "genres": "Hard Bop",
+    "url": "https://rateyourmusic.com/release/album/%E7%A6%8F%E5%B1%85%E8%89%AF/scenery/"
   }
 ]
