@@ -1230,7 +1230,7 @@
     "title": "Dopethrone",
     "country": "UK",
     "year": "2000",
-    "genres": "Doom Metal//Stoner Metal",
+    "genres": "Doom Metal/Stoner Metal",
     "url": "https://rateyourmusic.com/release/album/electric-wizard/dopethrone/"
   },
   {
@@ -1965,7 +1965,7 @@
     "title": "Panopticon",
     "country": "USA",
     "year": "2004",
-    "genres": "Post Metal",
+    "genres": "Post-Metal",
     "url": "https://rateyourmusic.com/release/album/isis/panopticon/"
   },
   {
@@ -3318,5 +3318,101 @@
     "year": "1976",
     "genres": "Hard Bop",
     "url": "https://rateyourmusic.com/release/album/%E7%A6%8F%E5%B1%85%E8%89%AF/scenery/"
+  },
+  {
+    "artist": "Sadao Watanabe",
+    "title": "Maisha",
+    "country": "Japan",
+    "year": "1985",
+    "genres": "Jazz Fusion/Jazz-Funk",
+    "url": "https://rateyourmusic.com/release/album/%E6%B8%A1%E8%BE%BA%E8%B2%9E%E5%A4%AB/maisha/"
+  },
+  {
+    "artist": "Sadness",
+    "title": "I Want To Be There",
+    "country": "",
+    "year": "2019",
+    "genres": "Blackgaze/Post-Metal",
+    "url": "https://rateyourmusic.com/search?searchterm=Sadness%20I%20Want%20To%20Be%20There&searchtype="
+  },
+  {
+    "artist": "Samsara Blues Experiment",
+    "title": "Long Distance Trip",
+    "country": "Germany",
+    "year": "2010",
+    "genres": "Psychedelic Rock/Stoner Rock",
+    "url": "https://rateyourmusic.com/release/album/samsara-blues-experiment/long-distance-trip/"
+  },
+  {
+    "artist": "Santana",
+    "title": "Abraxas",
+    "country": "USA",
+    "year": "1970",
+    "genres": "Latin Rock",
+    "url": "https://rateyourmusic.com/release/album/santana/abraxas/"
+  },
+  {
+    "artist": "Satanicpornocultshop",
+    "title": "Arkhaiomelisidonophunikheratos",
+    "country": "Japan",
+    "year": "2010",
+    "genres": "Art Pop",
+    "url": "https://rateyourmusic.com/release/album/satanicpornocultshop/arkhaiomelisidonophunikheratos/"
+  },
+  {
+    "artist": "Satelliti",
+    "title": "Transister",
+    "country": "Italy",
+    "year": "2013",
+    "genres": "Electronic",
+    "url": "https://rateyourmusic.com/search?searchterm=Satelliti%20Transister&searchtype="
+  },
+  {
+    "artist": "Scorn",
+    "title": "Gyral",
+    "country": "UK",
+    "year": "1995",
+    "genres": "Dubstep/Illbient",
+    "url": "https://rateyourmusic.com/release/album/scorn/gyral/"
+  },
+  {
+    "artist": "Scorn",
+    "title": "Stealth",
+    "country": "UK",
+    "year": "2007",
+    "genres": "Dubstep/Illbient",
+    "url": "https://rateyourmusic.com/release/album/scorn/stealth/"
+  },
+  {
+    "artist": "Screaming Lord Sutch",
+    "title": "Rock & Horror",
+    "country": "UK",
+    "year": "1982",
+    "genres": "Rockabilly/Rock & Roll",
+    "url": "https://rateyourmusic.com/release/comp/screaming_lord_sutch/rock_and_horror/"
+  },
+  {
+    "artist": "Secret Chiefs 3",
+    "title": "Book Of Horizons",
+    "country": "USA",
+    "year": "2004",
+    "genres": "Experimental Rock",
+    "url": "https://rateyourmusic.com/release/album/secret-chiefs-3/book-of-horizons/"
+  },
+  {
+    "artist": "Shahram Shabpareh",
+    "title": "Paria",
+    "country": "Iran",
+    "year": "1985",
+    "genres": "Persian Pop",
+    "url": "https://rateyourmusic.com/release/album/%D8%B4%D9%87%D8%B1%D8%A7%D9%85-shahram/%D8%A7%D9%89-%D9%82%D8%B4%D9%86%DA%AF-%D8%AA%D8%B1-%D8%A7%D8%B2-%D9%BE%D8%B1%D9%8A%D8%A7-ey-ghashangtar-az-paria/"
+  },
+  {
+    "artist": "Shaka Ponk",
+    "title": "The Geeks And The Jerkin's Socks",
+    "country": "France",
+    "year": "2011",
+    "genres": "Alternative Rock/New Rave",
+    "url": "https://rateyourmusic.com/release/album/shaka_ponk/the_geeks_and_the_jerkin_socks/"
   }
 ]
