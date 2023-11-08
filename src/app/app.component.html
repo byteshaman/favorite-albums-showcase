@@ -2,6 +2,12 @@
   <h1>ALBUMS: {{ filteredArray.length }}</h1>
 
   <input type="text" (input)="filterAlbums()" [formControl]="searchTerm" placeholder="FILTER...">
+
+  <form [formGroup]="formGroup" id="checkbox-form">
+    <div *ngFor="let check of checkboxes">
+      <mat-checkbox [formControlName]="check.value" (change)="onCheckboxChange()">{{check.label}}</mat-checkbox>
+    </div>
+  </form>
 </div>
 
 <div class="grid-container">
@@ -20,5 +26,5 @@
         </div>
       </div>
     </div>
-  </ng-container> 
+  </ng-container>
 </div>
