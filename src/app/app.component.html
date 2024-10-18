@@ -3,7 +3,7 @@
 
   <input type="text" (input)="filterAlbums()" [formControl]="searchTerm" placeholder="FILTER...">
 
-  <form [formGroup]="formGroup" id="checkbox-form">
+  <form [formGroup]="chkFG" id="checkbox-form">
     <div *ngFor="let check of checkboxes">
       <mat-checkbox [formControlName]="check.value" (change)="onCheckboxChange()">{{check.label}}</mat-checkbox>
     </div>
@@ -17,8 +17,8 @@
       <div class="overlay">
         <div class="text">
           <ul>
-            <li>{{ album.displayartist ? album.displayartist : album.artist }}</li>
-            <li>{{ album.displaytitle ? album.displaytitle : album.title }}</li>
+            <li>{{ album.displayartist || album.artist }}</li>
+            <li>{{ album.displaytitle || album.title }}</li>
             <li>{{ album.genres }}</li>
             <li class="hidden">{{ album.country + ' - ' + album.year }}</li>
             <li *ngIf="album.extra">{{ album.extra }}</li>

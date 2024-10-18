@@ -30,42 +30,44 @@ export class AppComponent {
   albumArray: Album[] = JSON.parse(JSON.stringify(albums));
   filteredArray: Album[] = JSON.parse(JSON.stringify(this.albumArray));
   searchTerm = new FormControl<string>('');
-  formGroup: FormGroup;
-  checkboxes: Checkbox[];
+  chkFG: FormGroup;
+  checkboxes: Checkbox[] = [
+    { value: 'artist', label: 'Artist' },
+    { value: 'title', label: 'Title' },
+    { value: 'country', label: 'Country' },
+    { value: 'year', label: 'Year' },
+    { value: 'genres', label: 'Genre' }
+  ];
 
   constructor(private formBuilder: FormBuilder)  {
-    this.formGroup = this.formBuilder.group({
+    this.chkFG = this.formBuilder.group({
       artist: [true],
       title: [true],
       country: [true],
       year: [true],
       genres: [true]
     });
-
-    this.checkboxes = [
-      {value: 'artist', label: 'Artist'},
-      {value: 'title', label: 'Title'},
-      {value: 'country', label: 'Country'},
-      {value: 'year', label: 'Year'},
-      {value: 'genres', label: 'Genre'}
-    ]
   }
 
   allCheckboxesDisabled(): boolean {
     // this.formGroup.value = key/value pair for every control of the form group
-    return Object.entries(this.formGroup.value).every(([key, value]) => value === false);
+    return Object.entries(this.chkFG.value).every(([key, value]) => value === false);
   }
 
   filterAlbums(): void {
     const st: string = this.searchTerm.value!;
-    this.filteredArray = this.albumArray
-      .filter(album => false // pointless, just to align stuff
-        || ((album.artist.toLowerCase().includes(st) || album.displayartist?.toLowerCase().includes(st)) && this.formGroup.get('artist')?.value) 
-        || ((album.title.toLowerCase().includes(st) || album.displaytitle?.toLowerCase().includes(st)) && this.formGroup.get('album')?.value)
-        || (album.country.toLowerCase().includes(st) && this.formGroup.get('country')?.value)
-        || (album.genres.toLowerCase().includes(st) && this.formGroup.get('genres')?.value)
-        || (album.year.toLowerCase().includes(st) && this.formGroup.get('year')?.value)
-      );
+    try {
+
+      this.filteredArray = this.albumArray
+        .filter(album => (album.year.includes(st) && this.chkFG.get('year')?.value)
+          || ((album.artist.toLowerCase().includes(st) || album.displayartist?.toLowerCase().includes(st)) && this.chkFG.get('artist')?.value)
+          || ((album.title.toLowerCase().includes(st) || album.displaytitle?.toLowerCase().includes(st)) && this.chkFG.get('album')?.value)
+          || (album.country.toLowerCase().includes(st) && this.chkFG.get('country')?.value)
+          || (album.genres.toLowerCase().includes(st) && this.chkFG.get('genres')?.value)
+        );
+    } catch (error) {
+      debugger;
+    }
     // console.log(this.filteredArray);
   }
 
@@ -81,7 +83,7 @@ export class AppComponent {
   }
 
   restoreCheckboxes(): void {
-    this.formGroup.patchValue({
+    this.chkFG.patchValue({
       artist: true,
       title: true,
       country: true,
