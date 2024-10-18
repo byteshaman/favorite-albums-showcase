@@ -54,7 +54,7 @@
     "title": "93 Million Miles",
     "country": "Canada",
     "year": "2011",
-    "genres": "UK Bass/Juke/Wonky",
+    "genres": "UK Bass",
     "url": "https://rateyourmusic.com/release/album/africa-hitech/93-million-miles-1/"
   },
   {
@@ -217,6 +217,14 @@
     "year": "2019",
     "genres": "Surf Rock",
     "url": "https://rateyourmusic.com/release/album/amphibian-man/metal-goes-surf/"
+  },
+  {
+    "artist": "Andi Palacio & The Garifuna Collective",
+    "title": "Wátina",
+    "country": "Belize",
+    "year": "2007",
+    "genres": "Garifuna Folk Music/Punta",
+    "url": "https://rateyourmusic.com/release/album/andy-palacio-the-garifuna-collective/watina/"
   },
   {
     "artist": "Angélique Kidjo",
@@ -3604,7 +3612,7 @@
     "title": "Mozaic",
     "country": "Romania",
     "year": "2015",
-    "genres": "Post Rock//Psychedelic Rock",
+    "genres": "Post Rock/Psychedelic Rock",
     "url": "https://rateyourmusic.com/release/album/sunset-in-the-12th-house/mozaic-2/"
   },
   {
@@ -3614,5 +3622,198 @@
     "year": "2005",
     "genres": "Alternative Metal",
     "url": "https://rateyourmusic.com/release/album/system-of-a-down/mezmerize/"
+  },
+  {
+    "artist": "T2",
+    "title": "It'll All Work Out In Boomland",
+    "country": "UK",
+    "year": "1970",
+    "genres": "Progressive Rock/Heavy Psych",
+    "url": "https://rateyourmusic.com/release/album/t2/itll-all-work-out-in-boomland/"
+  },
+  {
+    "artist": "Talco",
+    "title": "Combat Circus",
+    "country": "Italy",
+    "year": "2006",
+    "genres": "Ska Punk",
+    "url": "https://rateyourmusic.com/release/album/talco/combat_circus/"
+  },
+  {
+    "artist": "Tasaday",
+    "title": "Implosione Tra Le Pieghe Dell'Anima",
+    "country": "Italy",
+    "year": "1984",
+    "genres": "Industrial",
+    "url": "https://rateyourmusic.com/release/album/tasaday/implosione-tra-le-pieghe-dellanima.p/"
+  },
+  {
+    "artist": "Tau Ea Matsekha",
+    "title": "Ke Satla Bua",
+    "country": "Lesotho",
+    "year": "2009",
+    "genres": "Famo/Sotho-Tswana Folk Music",
+    "url": "https://rateyourmusic.com/release/album/tau-ea-matsekha/ke-satla-bua/"
+  }, 
+  {
+    "artist": "Tautumeitas",
+    "title": "Tautumeitas",
+    "country": "Latvia",
+    "year": "2018",
+    "genres": "Latvian Folk Music",
+    "url": "https://rateyourmusic.com/release/album/tautumeitas/tautumeitas/"
+  },
+  {
+    "artist": "Teatro Satanico",
+    "title": "Antisociale",
+    "country": "Italy",
+    "year": "2000",
+    "genres": "Industrial",
+    "url": "https://rateyourmusic.com/release/album/teatro-satanico/untitled/"
+  },
+  {
+    "artist": "Techno Animal",
+    "title": "The Brotherhood Of The Bomb",
+    "country": "USA",
+    "year": "2001",
+    "genres": "Industrial Hip-Hop/Illbient",
+    "url": "https://rateyourmusic.com/release/album/techno-animal/the-brotherhood-of-the-bomb/"
+  },
+  {
+    "artist": "Tęgie Chłopy",
+    "title": "Dansing",
+    "country": "Poland",
+    "year": "2015",
+    "genres": "Polish Folk Music/Tango",
+    "url": "https://rateyourmusic.com/release/album/tegie-chlopy/dansing/"
+  },
+  {
+    "artist": "Tenacious D",
+    "title": "The Pick Of Destiny",
+    "country": "USA",
+    "year": "2006",
+    "genres": "Rock Musical/Hard Rock",
+    "url": "https://rateyourmusic.com/release/album/tenacious-d/the-pick-of-destiny/"
+  },
+  {
+    "artist": "Testament",
+    "title": "First Strike Still Deadly",
+    "country": "USA",
+    "year": "2001",
+    "genres": "Thrash Metal",
+    "url": "https://rateyourmusic.com/release/album/testament/first-strike-still-deadly/"
+  },
+  {
+    "artist": "The Algorithm",
+    "title": "Critical Error",
+    "country": "France",
+    "year": "2010",
+    "genres": "Djentstep",
+    "url": "https://rateyourmusic.com/release/album/the-algorithm/critical_error/"
+  },
+  {
+    "artist": "The Architect",
+    "title": "Foundations",
+    "country": "France",
+    "year": "2013",
+    "genres": "Trip Hop",
+    "url": "https://rateyourmusic.com/release/ep/the-architect/foundations/"
+  },
+  {
+    "artist": "The Beach Boys",
+    "title": "Sounds Of Summer",
+    "displaytitle": "Sounds Of Summer: The Very Best Of The Beach Boys",
+    "country": "example",
+    "year": "2003",
+    "genres": "Sunshine Pop/Vocal Surf",
+    "url": "https://rateyourmusic.com/release/comp/the-beach-boys/sounds-of-summer-the-very-best-of-the-beach-boys.p/"
+  },
+  {
+    "artist": "The Beatles",
+    "title": "Abbey Road",
+    "country": "UK",
+    "year": "1969",
+    "genres": "Psychedelic Pop",
+    "url": "https://rateyourmusic.com/release/album/the-beatles/abbey-road/"
+  },
+  {
+    "artist": "The Blues Brothers",
+    "title": "The Blues Brothers",
+    "country": "USA",
+    "year": "1980",
+    "genres": "Rhythm & Blues/Rock & Roll",
+    "url": "https://rateyourmusic.com/release/album/the-blues-brothers/the-blues-brothers/"
+  },
+  {
+    "artist": "The Body",
+    "title": "I Have Fought Against It, But I Can't Any Longer",
+    "country": "USA",
+    "year": "2018",
+    "genres": "Death Industrial/Drone Metal",
+    "url": "https://rateyourmusic.com/release/album/the-body/i-have-fought-against-it-but-i-cant-any-longer/"
+  },
+  {
+    "artist": "The Budos Band",
+    "title": "The Budos Band II",
+    "country": "USA",
+    "year": "2007",
+    "genres": "Jazz-Funk/Deep Funk",
+    "url": "https://rateyourmusic.com/release/album/the-budos-band/the-budos-band-ii/"
+  },
+  {
+    "artist": "The Chakachas",
+    "title": "Jungle Fever",
+    "country": "Belgium",
+    "year": "1972",
+    "genres": "Latin Funk/Chachachá",
+    "url": "https://rateyourmusic.com/release/album/chakachas/jungle-fever/"
+  },
+  {
+    "artist": "The Chemical Brothers",
+    "title": "Exit Planet Dust",
+    "country": "UK",
+    "year": "1995",
+    "genres": "Big Beat",
+    "url": "https://rateyourmusic.com/release/album/the-chemical-brothers/exit-planet-dust/"
+  },
+  {
+    "artist": "The Cramps",
+    "title": "Bad Music For Bad People",
+    "country": "USA",
+    "year": "1984",
+    "genres": "Psychobilly/Garage Punk",
+    "url": "https://rateyourmusic.com/release/comp/the-cramps/bad-music-for-bad-people/"
+  },
+  {
+    "artist": "The Crystal Method",
+    "title": "Vegas",
+    "country": "USA",
+    "year": "1997",
+    "genres": "Big Beat/Acid Breaks",
+    "url": "https://rateyourmusic.com/release/album/the-crystal-method/vegas/"
+  },
+  {
+    "artist": "The Cult",
+    "title": "Love",
+    "country": "UK",
+    "year": "1985",
+    "genres": "Post-Punk/Gothic Rock",
+    "url": "https://rateyourmusic.com/release/album/the-cult/love/"
+  },
+  {
+    "artist": "The Esso Trinidad Steel Band",
+    "title": "The Esso Trinidad Steel Band",
+    "country": "Trinidad and Tobago",
+    "year": "1971",
+    "genres": "Calypso/Steel Band",
+    "url": "https://rateyourmusic.com/release/album/the-esso-trinidad-steel-band/the-esso-trinidad-steel-band/"
+  },
+  {
+    "artist": "The Gerogerigegege",
+    "title": "Instruments Disorder (170 Songs CD)",
+    "country": "Japan",
+    "year": "1994",
+    "genres": "Harsh Noise",
+    "url": "https://rateyourmusic.com/release/album/the-gerogerigegege/instruments-disorder-170-songs-cd/"
   }
 ]

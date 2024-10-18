@@ -104,8 +104,11 @@ $font-color: #8ba8ff;
     flex-wrap: wrap;
 
     mat-checkbox {
-      color: $font-color;
       font-size: $checkbox-font-size;
+
+      label {
+        color: $font-color;
+      }
     }
   }
 }
