@@ -4,14 +4,16 @@
   <input type="text" (input)="filterAlbums()" [formControl]="searchTerm" placeholder="FILTER...">
 
   <form [formGroup]="chkFG" id="checkbox-form">
-    <div *ngFor="let check of checkboxes">
-      <mat-checkbox [formControlName]="check.value" (change)="onCheckboxChange()">{{check.label}}</mat-checkbox>
-    </div>
+    @for (check of checkboxes; track check) {
+      <div>
+        <mat-checkbox [formControlName]="check.value" (change)="onCheckboxChange()">{{check.label}}</mat-checkbox>
+      </div>
+    }
   </form>
 </div>
 
 <div class="grid-container">
-  <ng-container *ngFor="let album of filteredArray">
+  @for (album of filteredArray; track album) {
     <div class="container" (click)="goToLink(album.url)">
       <img src="{{'assets/album-covers/' + album.artist + ' - ' + album.title + '.webp'}}">
       <div class="overlay">
@@ -21,10 +23,12 @@
             <li>{{ album.displaytitle || album.title }}</li>
             <li>{{ album.genres }}</li>
             <li class="hidden">{{ album.country + ' - ' + album.year }}</li>
-            <li *ngIf="album.extra">{{ album.extra }}</li>
+            @if (album.extra) {
+              <li>{{ album.extra }}</li>
+            }
           </ul>
         </div>
       </div>
     </div>
-  </ng-container>
+  }
 </div>
