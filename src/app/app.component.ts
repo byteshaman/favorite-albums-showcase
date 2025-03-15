@@ -27,7 +27,6 @@ interface Checkbox {
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    standalone: true,
     imports: [ReactiveFormsModule, MatCheckboxModule]
 })
 export class AppComponent {
