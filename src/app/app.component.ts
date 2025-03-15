@@ -1,6 +1,8 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
 import albums from 'src/app/data/albums.json';
+import { MatCheckboxModule } from '@angular/material/checkbox';
+import { NgFor, NgIf } from '@angular/common';
 
 interface Album {
   artist: string;
@@ -21,10 +23,12 @@ interface Checkbox {
 
 
 @Component({
-  selector: 'app-root',
-  templateUrl: './app.component.html',
-  styleUrls: ['./app.component.scss'],
-  encapsulation: ViewEncapsulation.None
+    selector: 'app-root',
+    templateUrl: './app.component.html',
+    styleUrls: ['./app.component.scss'],
+    encapsulation: ViewEncapsulation.None,
+    standalone: true,
+    imports: [ReactiveFormsModule, NgFor, MatCheckboxModule, NgIf]
 })
 export class AppComponent {
   albumArray: Album[] = JSON.parse(JSON.stringify(albums));
