@@ -1,0 +1,15 @@
+// MARK: MAT-THEME
+@use '@angular/material' as mat;
+@import "variables";
+
+:root {
+  color-scheme: light dark; // automatically manage theme
+  @include mat.theme((
+    color: mat.$azure-palette,
+    density: -5
+  ));
+ 
+  @include mat.checkbox-overrides((
+    label-text-size: $fs-xs
+  ));
+}

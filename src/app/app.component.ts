@@ -1,8 +1,12 @@
 import { Component, OnInit, ViewEncapsulation } from '@angular/core';
-import { FormBuilder, FormControl, FormGroup, ReactiveFormsModule } from '@angular/forms';
+import { FormBuilder, FormControl, FormGroup, FormsModule, ReactiveFormsModule } from '@angular/forms';
 import albums from 'src/app/data/albums.json';
 import { MatCheckboxModule } from '@angular/material/checkbox';
 
+import { BreakpointObserver } from '@angular/cdk/layout';
+import { takeUntilDestroyed } from '@angular/core/rxjs-interop';
+
+import { MatIconModule } from '@angular/material/icon';
 
 interface Album {
   artist: string;
@@ -22,17 +26,26 @@ interface Checkbox {
 }
 
 
+const mobileBreakpoint = 800;
+const CUSTOM_BREAKPOINTS = {
+  small: `(width < ${mobileBreakpoint}px)`, // new mq syntax
+};
+
 @Component({
     selector: 'app-root',
     templateUrl: './app.component.html',
     styleUrls: ['./app.component.scss'],
     encapsulation: ViewEncapsulation.None,
-    imports: [ReactiveFormsModule, MatCheckboxModule]
+  imports: [ReactiveFormsModule, MatCheckboxModule, FormsModule, MatIconModule]
 })
 export class AppComponent {
   albumArray: Album[] = JSON.parse(JSON.stringify(albums));
-  filteredArray: Album[] = JSON.parse(JSON.stringify(this.albumArray));
-  searchTerm = new FormControl<string>('');
+  filteredArray: Album[] = structuredClone(this.albumArray);
+
+  // used on touch devices to keep track of which albums have been clicked to show the overlay
+  clickedAlbums: Set<string> = new Set([]);
+
+  searchInput: string = '';
   chkFG: FormGroup;
   checkboxes: Checkbox[] = [
     { value: 'artist', label: 'Artist' },
@@ -42,7 +55,22 @@ export class AppComponent {
     { value: 'genres', label: 'Genre' }
   ];
 
-  constructor(private formBuilder: FormBuilder)  {
+  isTouchDevice: boolean = 'ontouchstart' in window || navigator.maxTouchPoints > 0; // detect if device is touch-enabled
+  // !! operator converts the value to a boolean
+
+  isMobile!: boolean;
+
+  constructor(private formBuilder: FormBuilder, private breakpointObserver: BreakpointObserver) {
+    // Detect if the screen size is smaller than the mobile breakpoint and set the isMobile property
+    this.breakpointObserver
+      .observe([CUSTOM_BREAKPOINTS.small])
+      .pipe(takeUntilDestroyed()) // https://medium.com/@chandrashekharsingh25/exploring-the-takeuntildestroyed-operator-in-angular-d7244c24a43e
+      .subscribe((result) => {
+        console.log('isMobile: ', result.matches)
+        this.isMobile = result.matches;
+      });
+
+    // Initialize chk
     this.chkFG = this.formBuilder.group({
       artist: [true],
       title: [true],
@@ -50,6 +78,8 @@ export class AppComponent {
       year: [true],
       genres: [true]
     });
+
+    console.log('isTouchDevice: ', this.isTouchDevice);
   }
 
   allCheckboxesDisabled(): boolean {
@@ -58,7 +88,7 @@ export class AppComponent {
   }
 
   filterAlbums(): void {
-    const st: string = this.searchTerm.value!;
+    const st: string = this.searchInput;
     try {
 
       this.filteredArray = this.albumArray
@@ -74,13 +104,36 @@ export class AppComponent {
     // console.log(this.filteredArray);
   }
 
-  goToLink(url: string): void {
+  /**
+   * Check if the album has been clicked 
+   * @param {string} url 
+   * @returns {boolean} 
+   */
+  albumClicked(url: string): boolean {
+    return this.clickedAlbums.has(url);
+  }
+
+  /**
+   * Visit the link in a new tab
+   * @param {string} url 
+   */
+  visitLink(url: string): void {
     window.open(url, "_blank");
+  }
+
+  onAlbumClick(url: string): void {
+    if (this.isTouchDevice) {
+      // Toggle the album in the clickedAlbums set
+      this.clickedAlbums.has(url) ? this.clickedAlbums.delete(url) : this.clickedAlbums.add(url);
+      // console.log('clickedAlbums: ', this.clickedAlbums);
+    } else {
+      this.visitLink(url);
+    }
   }
 
   onCheckboxChange(): void {
     if (this.allCheckboxesDisabled()) {
-      this.restoreCheckboxes();
+      this.restoreCheckboxes(); // Restore all checkboxes if all are disabled
     }
     this.filterAlbums();
   }
