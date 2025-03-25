@@ -66,7 +66,6 @@ export class AppComponent {
       .observe([CUSTOM_BREAKPOINTS.small])
       .pipe(takeUntilDestroyed()) // https://medium.com/@chandrashekharsingh25/exploring-the-takeuntildestroyed-operator-in-angular-d7244c24a43e
       .subscribe((result) => {
-        console.log('isMobile: ', result.matches)
         this.isMobile = result.matches;
       });
 
@@ -79,28 +78,29 @@ export class AppComponent {
       genres: [true]
     });
 
-    console.log('isTouchDevice: ', this.isTouchDevice);
+    // console.log('isTouchDevice: ', this.isTouchDevice);
   }
 
+  /**
+   * When a checkbox is changed, enable all checkboxes if all are disabled
+   * @returns {boolean} 
+   */
   allCheckboxesDisabled(): boolean {
     // this.formGroup.value = key/value pair for every control of the form group
     return Object.entries(this.chkFG.value).every(([key, value]) => value === false);
   }
 
+  /** Filter albums based on search input and selected checkboxes */
   filterAlbums(): void {
     const st: string = this.searchInput;
-    try {
 
-      this.filteredArray = this.albumArray
-        .filter(album => (album.year.includes(st) && this.chkFG.get('year')?.value)
-          || ((album.artist.toLowerCase().includes(st) || album.displayartist?.toLowerCase().includes(st)) && this.chkFG.get('artist')?.value)
-          || ((album.title.toLowerCase().includes(st) || album.displaytitle?.toLowerCase().includes(st)) && this.chkFG.get('album')?.value)
-          || (album.country.toLowerCase().includes(st) && this.chkFG.get('country')?.value)
-          || (album.genres.toLowerCase().includes(st) && this.chkFG.get('genres')?.value)
-        );
-    } catch (error) {
-      debugger;
-    }
+    this.filteredArray = this.albumArray
+      .filter(album => (album.year.includes(st) && this.chkFG.get('year')?.value)
+        || ((album.artist.toLowerCase().includes(st) || album.displayartist?.toLowerCase().includes(st)) && this.chkFG.get('artist')?.value)
+        || ((album.title.toLowerCase().includes(st) || album.displaytitle?.toLowerCase().includes(st)) && this.chkFG.get('title')?.value)
+        || (album.country.toLowerCase().includes(st) && this.chkFG.get('country')?.value)
+        || (album.genres.toLowerCase().includes(st) && this.chkFG.get('genres')?.value)
+      );
     // console.log(this.filteredArray);
   }
 
@@ -135,6 +135,7 @@ export class AppComponent {
     if (this.allCheckboxesDisabled()) {
       this.restoreCheckboxes(); // Restore all checkboxes if all are disabled
     }
+    console.log(this.chkFG.value)
     this.filterAlbums();
   }
 
