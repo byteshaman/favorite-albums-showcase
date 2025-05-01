@@ -56,7 +56,6 @@ export class AppComponent {
   ];
 
   isTouchDevice: boolean = 'ontouchstart' in window || navigator.maxTouchPoints > 0; // detect if device is touch-enabled
-  // !! operator converts the value to a boolean
 
   isMobile!: boolean;
 
@@ -92,7 +91,7 @@ export class AppComponent {
 
   /** Filter albums based on search input and selected checkboxes */
   filterAlbums(): void {
-    const st: string = this.searchInput;
+    const st: string = this.searchInput.toLowerCase();
 
     this.filteredArray = this.albumArray
       .filter(album => (album.year.includes(st) && this.chkFG.get('year')?.value)
@@ -135,7 +134,7 @@ export class AppComponent {
     if (this.allCheckboxesDisabled()) {
       this.restoreCheckboxes(); // Restore all checkboxes if all are disabled
     }
-    console.log(this.chkFG.value)
+    // console.log(this.chkFG.value)
     this.filterAlbums();
   }
 

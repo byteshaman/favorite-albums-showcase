@@ -1,7 +1,7 @@
 <div class="header">
   <h1>ALBUMS: {{ filteredArray.length }}</h1>
 
-  <input type="search" (input)="filterAlbums()" [(ngModel)]="searchInput" placeholder="FILTER..." >
+  <input type="search" (input)="filterAlbums()" [(ngModel)]="searchInput" placeholder="FILTER..." autofocus role="search">
 
   <form [formGroup]="chkFG" id="checkbox-form">
     @for (check of checkboxes; track check.value) {
@@ -11,7 +11,7 @@
 </div>
 
 <div class="grid-container" [class.is-mobile]="isMobile" [class.is-touch]="isTouchDevice">
-  @for (album of filteredArray; track album.url;) { 
+  @for (album of filteredArray; track album.url) { 
     @let url = album.url;
     @let imageName = 'assets/album-covers/'+album.artist+' - '+album.title+'.webp';
 
