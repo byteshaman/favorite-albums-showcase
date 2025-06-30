@@ -18,7 +18,7 @@
     <div class="album" (click)="onAlbumClick(url)">
       <img [src]="imageName" class="album__cover" alt="album-cover">
       <div class="album__overlay" [hidden]="isTouchDevice && !albumClicked(url)">
-        <div class="album__info">          
+        <div class="album__info">
           <span>{{ album.displayartist || album.artist }}</span>
           <span>{{ album.displaytitle || album.title }}</span>
           <span>{{ album.genres }}</span>
