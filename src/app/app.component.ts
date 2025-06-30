@@ -55,7 +55,7 @@ export class AppComponent {
     { value: 'genres', label: 'Genre' }
   ];
 
-  isTouchDevice: boolean = 'ontouchstart' in window || navigator.maxTouchPoints > 0; // detect if device is touch-enabled
+  isTouchDevice: boolean = window.matchMedia('(hover: none)').matches; // detect if device is touch-enabled
 
   isMobile!: boolean;
 
