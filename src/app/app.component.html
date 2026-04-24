@@ -16,7 +16,7 @@
     @let imageName = 'assets/album-covers/'+album.artist+' - '+album.title+'.webp';
 
     <div class="album" (click)="onAlbumClick(url)">
-      <img [src]="imageName" class="album__cover" alt="album-cover">
+      <img [src]="imageName" class="album__cover" loading="lazy" alt="album-cover">
       <div class="album__overlay" [hidden]="isTouchDevice && !albumClicked(url)">
         <div class="album__info">
           <span>{{ album.displayartist || album.artist }}</span>
